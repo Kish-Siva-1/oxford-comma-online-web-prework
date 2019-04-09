@@ -1,6 +1,15 @@
 def oxford_comma(array)
-  if array 
+  
+  if array.length == 1  
     array
+  elsif array.length == 2
+    array.join(" and ")  
+  elsif array.length > 2
+    array.insert()
+    array.join(", ")
+    array.push()
+    
+    
 end
 
 describe "#oxford_comma" do

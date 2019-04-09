@@ -1,5 +1,6 @@
 def oxford_comma(array)
-  
+  if array 
+    array
 end
 
 describe "#oxford_comma" do
